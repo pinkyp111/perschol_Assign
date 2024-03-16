@@ -10,9 +10,8 @@ public class JavaOperatorsNumbers {
         // Before printing the results, write a comment with the predicted decimal value and binary string.
         // Now, print out x in decimal form and in binary notation.
         //Perform the preceding exercise with the following values:
-        //9
-        //17
-        //88
+        //9 17 88
+
         System.out.println("LEFT SHIFT");
         int x = 88;
         System.out.println("Print the intial value of x" + " " + x);
@@ -31,8 +30,6 @@ public class JavaOperatorsNumbers {
         System.out.println("Print the decimal  value after left-shift " + y);
         String binarystring3 = Integer.toBinaryString(y);
         System.out.println("Print the binary string value " + binarystring3);
-
-
         int z = 9;
         System.out.println("Print the intial value of z" + " " + z);
         String binarystring4 = Integer.toBinaryString(z);
@@ -41,6 +38,7 @@ public class JavaOperatorsNumbers {
         System.out.println("Print the decimal  value after left-shift " + z);
         String binarystring5 = Integer.toBinaryString(z);
         System.out.println("Print the binary string value " + binarystring5);
+
         ///<<<<<<<<<<RIGHT SHIFT---->>>>
         System.out.println("RIGHT SHIFT");
         int a = 150;
@@ -51,7 +49,6 @@ public class JavaOperatorsNumbers {
         System.out.println("Print the decimal  value after right-shift " + " " + a);
         String newstring1 = Integer.toBinaryString(a);
         System.out.println("Print the binary string value " + newstring1);
-        //
         int b = 225;
         System.out.println("Print the initial value of b" + b);
         String newstring2 = Integer.toBinaryString(b);
@@ -60,7 +57,6 @@ public class JavaOperatorsNumbers {
         System.out.println("Print the decimal  value after right-shift " + " " + b);
         String newstring3 = Integer.toBinaryString(b);
         System.out.println("Print the binary string value " + newstring3);
-        //
         int c = 1555;
         System.out.println("Print the initial value of c" + " " + c);
         String newstring4 = Integer.toBinaryString(c);
@@ -69,8 +65,6 @@ public class JavaOperatorsNumbers {
         System.out.println("Print the decimal  value after right-shift " + c);
         String newstring5 = Integer.toBinaryString(c);
         System.out.println("Print the binary string value " + newstring5);
-
-//32456
         int d = 32456;
         System.out.println("Print the initial value of d" + " " + d);
         String newstring6 = Integer.toBinaryString(d);
@@ -94,10 +88,10 @@ public class JavaOperatorsNumbers {
         System.out.println("Print the decimal value of z1" + " " + z1);
         String z2 = Integer.toBinaryString(z1);
         System.out.println("Print the binary value of z1 " + " " + z2);
+
         //Question 4
         //Now, with the preceding values, use the bitwise and operator to calculate the “or” value between x and y.
         // As before, write a comment that indicates what you predict the values to be before printing them out.
-
         //---Bitwise or->
         int x2 = 7;
         int y2 = 17;
@@ -107,6 +101,7 @@ public class JavaOperatorsNumbers {
         System.out.println("Print the decimal value of z3" + " " + z3);
         String z4 = Integer.toBinaryString(z3);
         System.out.println("Print the binary value of z3 " + " " + z4);
+
         //Question 5
         //Write a program that declares an integer variable, assigns a number,
         // and uses a postfix increment operator to increase the value.
@@ -133,7 +128,7 @@ public class JavaOperatorsNumbers {
         // while the second configuration calculated the sum, and then incremented x.
         int x_1 = 5;
         int y_1 = 8;
-        System.out.println("Display the value of variables x_1 y_1" + " " + x_1 + " " + y_1);
+        System.out.println("Display the value of variables \n x_1"+"="+x_1+"\n"+" y_1"+"="+y_1);
         int v = x_1++ +y_1;
         System.out.println("v="+v);
         int sum_1 = v + y;
