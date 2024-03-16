@@ -1,6 +1,6 @@
 package perscholas.javabasics;
 
-public class AutpPromoteTest {
+public class AutoPromoteTest {
     public static void main(String[] args) {
         byte b = 42;
         char c = 'a';
