@@ -1,6 +1,6 @@
-package perscholas_javabasics;
+package perscholas.javabasics;
 
-public class javabasicsclass {
+public class JavaBasics {
     public static void main(String[] args) {
         //Question 1
 
