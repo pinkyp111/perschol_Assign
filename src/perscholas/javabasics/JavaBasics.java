@@ -46,7 +46,7 @@ public class JavaBasics {
         System.out.println("Enter the value of double d1" + " " + d1);
         System.out.println("Enter the value of double d2" + " " + d2);
         double d3 = d2 > d1 ? d1 / d2 : d2 / d1;
-        System.out.println("Print the result" + " " + d3);
+        System.out.println("Print the result of division" + " " + d3);
         int i4;
         i4 = (int) d3;
         System.out.println("Print only the integer part" + " " + i4);
@@ -66,7 +66,7 @@ public class JavaBasics {
         System.out.println("Question 7");
         final double length = 10;
         final double breadth = 20;
-        System.out.println("Enter the value of double d of length and breadth of a Rectangle" + " " + length + " " + breadth);
+        System.out.println("Enter the value of  length and breadth of a Rectangle" + " " + length + " " + breadth);
         double area = length * breadth;
         System.out.println("Print the area of rectangle" + " " + area);
 

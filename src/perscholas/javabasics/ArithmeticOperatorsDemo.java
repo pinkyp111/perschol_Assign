@@ -16,6 +16,10 @@ public class ArithmeticOperatorsDemo {
         System.out.println("% operator resulted in " + x);
         x = y++;
         System.out.println("Postfix ++ operator resulted in " + x);
+        // z++ or ++z means z=z+1
+        // Based on prefix or postfix the value of x will be calculated accordingly as below
+        // x=z++ means  x=z;z=z+1; // x=5;z=6;
+        //x=++z; means  z=z+1; x=z //x=6;z=6;
         x = ++z;
         System.out.println("Prefix ++ operator resulted in " + x);
         x = -y;
