@@ -19,9 +19,10 @@ public class JavaOperatorsNumbers {
         System.out.println("Print the binary string value " + binarystring);
         // 64 32  16   8   4   2 1---
         // 1   0   1  1 0 0 0
-        x <<= 1;
+        x <<= 3;
         // Left shift by 1 means multilplying by 2
         //Left shift by 2 means multilplying by 4
+        //Left shift by 3 means multilplying by 6
         System.out.println("Print the decimal  value after left-shift " + x);
         String binarystring1 = Integer.toBinaryString(x);
         System.out.println("Print the binary string value " + binarystring1);
@@ -151,11 +152,11 @@ public class JavaOperatorsNumbers {
         int x_1 = 5;
         int y_1 = 8;
         int sum_1=++x_1+y_1;
-        System.out.println("Postfix sum :: sum_1="+sum_1); // sum_1=14;
+        System.out.println("Prefix sum :: sum_1="+sum_1); // sum_1=14;
         System.out.println("Display the value of variables \n x_1"+"="+x_1+"\n"+" y_1"+"="+y_1);
         x_1 = 5; // reinitialize x_1
         int sum_2 = x_1++ + y_1;
-        System.out.println("prefix sum :: sum_2="+sum_2);
+        System.out.println("Postfix sum :: sum_2="+sum_2);
 
     }
 }
