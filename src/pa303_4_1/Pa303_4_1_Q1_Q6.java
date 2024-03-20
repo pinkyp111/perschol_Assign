@@ -2,7 +2,7 @@ package pa303_4_1;
 
 import java.util.Scanner;
 
-public class AssignPa303_4_1 {
+public class Pa303_4_1_Q1_Q6 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
