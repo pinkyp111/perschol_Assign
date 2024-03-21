@@ -10,6 +10,7 @@ public class MainRunner {
         String s = scan.next();
         int k = scan.nextInt();
         scan.close();
+        //lexicographical
 
         System.out.println(getSmallestAndLargest(s, k));
 
