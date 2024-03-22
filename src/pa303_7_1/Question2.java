@@ -20,6 +20,7 @@ public class Question2 {
             System.out.println("The middle element is :: ");
             z = intarry[intarry.length / 2];
             System.out.println(z);
+
         }
     }
 }

@@ -6,7 +6,7 @@ public class Question5 {
         //Write a program where you create an integer array with a length of 5.
         // Loop through the array and assign the value of the loop control variable
         // (e.g., i) to the corresponding index in the array.
-        int[] aar = {10, 20, 30, 40, 50};
+        int[] aar = {10, 20, 30, 40, 50, 60};
 
         for (int i = 0; i <= aar.length - 1; i++) {
             aar[i] = i;

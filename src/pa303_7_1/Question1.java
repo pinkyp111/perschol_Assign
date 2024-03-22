@@ -11,7 +11,7 @@ public class Question1 {
         intarray[1] = 2;
         intarray[2] = 3;
         System.out.println(Arrays.toString(intarray));
-        //System.out.println(intarray.toString());
+
 
     }
 }

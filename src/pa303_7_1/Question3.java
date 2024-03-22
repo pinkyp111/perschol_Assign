@@ -32,7 +32,7 @@ public class Question3 {
             targetarrays[i] = sourcearrays[i];
         }
         targetarrays[0] = 114;
-        // Here in this case sourcearray is intact
+        // Here in this case sourcearray is intact;;
         System.out.println(Arrays.toString(sourcearrays));
         System.out.println(Arrays.toString(targetarrays));
 

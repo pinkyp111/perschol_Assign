@@ -13,7 +13,6 @@ public class Question4 {
         int len = intarry[intarry.length] - 1;//len= length of array-1
         int firstindex = intarry[0];
         // int lastindex=len;
-
         System.out.println(intarry[firstindex]);
         System.out.println(intarry[len]);
 
