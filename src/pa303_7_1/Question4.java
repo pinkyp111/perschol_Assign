@@ -9,12 +9,13 @@ public class Question4 {
     // Now try to assign a value to the array index 5. You should get the same type of exception.
     //???????????
     public static void main(String[] args) {
-        int[] intarry = {1, 2, 8, 9, 7, 8};
+        int[] intarry = {1, 2, 8, 9, 7};
         int len = intarry[intarry.length] - 1;//len= length of array-1
-        int firstindex = intarry[0];
-        // int lastindex=len;
-        System.out.println(intarry[firstindex]);
-        System.out.println(intarry[len]);
+        for (int i = 0; i <= len; i++) {
+            if (i == 0 || i == len - 1)
+                System.out.println(intarry[i] + " " + intarry[len - 1]);
+
+        }
 
 
     }

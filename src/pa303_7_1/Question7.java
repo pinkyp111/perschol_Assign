@@ -7,25 +7,28 @@ public class Question7 {
         int[] aar = {10, 20, 30, 40, 50}; //10 20 30 40 50
 
         for (int i = 0; i <= aar.length - 1; i++) {
-            int z = 1;
+          /*  int z = 1;
             if (aar.length % 2 == 0) {
                 //System.out.println("Print without the middle elements ::");
                 //
                 int x = aar[(aar.length / 2) - 1];
                 int y = aar[(aar.length / 2)];
-                if (aar[i] == x && aar[i] == y) {
+                if (aar[i] == x || aar[i] == y) {
                     continue;
                 }
-                System.out.println(aar[i]);
-            } else
-                //System.out.println("Print without middle element: ");
+                System.out.println(aar[i]);*/
 
-                z = aar[aar.length / 2];
+
+            //System.out.println("Print without middle element: ");
+
+            int z = aar[aar.length / 2];
             if (aar[i] == z) {
                 continue;
             }
             System.out.println(aar[i]);
         }
     }
+        }
 
-}
+
+

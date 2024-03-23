@@ -10,8 +10,8 @@ public class Question6 {
         int[] aar = {10, 20, 30, 40, 50};
 
         for (int i = 0 * 2; i <= aar.length - 1; i++) {
-            aar[i] = i * 2;
-            System.out.println("Value of i : " + i + " Value at i" + aar[i]);
+            i = i * 2;
+            System.out.println("Value of i : " + i + " Value at i " + aar[i]);
 
         }
 
