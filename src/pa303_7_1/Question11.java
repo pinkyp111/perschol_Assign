@@ -12,7 +12,7 @@ public class Question11 {
 //Example
 //How many favorite things do you have?
 //7
-        //Enter your thing: phone
+// Enter your thing: phone
         //Enter your thing: tv
         //Enter your thing: xbox
         //Enter your thing: wine
