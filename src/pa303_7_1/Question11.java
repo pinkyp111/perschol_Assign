@@ -22,13 +22,18 @@ public class Question11 {
         //Your favorite  things are:
         //phone tv xbox wine beer sofa book
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter how many favorite things you have");
-        int things = scan.nextInt();
-        System.out.println("Display the number of favorite things you have" + things);
-        String[] items = {"phone", "tv", "xbox", "wine", "beer", "sofa", "book"};
-        for (int i = 0; i < items.length; i++) {
-            System.out.println("Enter your thing :: " + items[i]);
+        System.out.println("Enter the no of favorite things");
+        int n = scan.nextInt();
+        String[] things = new String[n];
+        System.out.println("Enter your favorite things");
+        for (int j = 0; j < n; j++) {
+            things[j] = scan.next();
         }
-        System.out.println("Your favorite things are : " + Arrays.toString(items));
+        for (int i = 0; i < n; i++) {
+            System.out.println(things[i]);
+        }
+        System.out.println("Display all the favorite items");
+        System.out.println(Arrays.toString(things));
+
     }
 }
