@@ -4,7 +4,7 @@ public class KidUser implements LibraryUser {
     private int age;
     private String Booktype;
 
-    public int getAge() {
+  /*  public int getAge() {
         return age;
     }
 
@@ -18,7 +18,7 @@ public class KidUser implements LibraryUser {
 
     public void setAge(int age) {
         this.age = age;
-    }
+    }*/
 
 
     public void registerAccount(int age) {
@@ -28,8 +28,6 @@ public class KidUser implements LibraryUser {
         else if (age > 11)
             System.out.println("Sorry, age must be less than 12 to register as a kid");
     }
-
-
     public void book(String Booktype) {
         if (Booktype.equals("kids"))
             System.out.println("Book issued successfully, please return the book within 10 days");
