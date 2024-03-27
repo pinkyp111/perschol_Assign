@@ -21,7 +21,6 @@ public class KidUser implements LibraryUser {
     }
 
 
-    @Override
     public void registerAccount(int age) {
 
         if (age <= 11)
@@ -30,7 +29,7 @@ public class KidUser implements LibraryUser {
             System.out.println("Sorry, age must be less than 12 to register as a kid");
     }
 
-    @Override
+
     public void book(String Booktype) {
         if (Booktype.equals("kids"))
             System.out.println("Book issued successfully, please return the book within 10 days");
