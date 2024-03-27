@@ -5,7 +5,7 @@ public interface LibraryUser {
 
     void registerAccount(int age);
 
-    public String book(String Booktype);
+    void book(String Booktype);
 
 
 }

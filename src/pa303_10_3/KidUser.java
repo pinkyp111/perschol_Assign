@@ -31,11 +31,11 @@ public class KidUser implements LibraryUser {
     }
 
     @Override
-    public String book(String Booktype) {
+    public void book(String Booktype) {
         if (Booktype.equals("kids"))
-            return "Book issued successfully, please return the book within 10 days";
+            System.out.println("Book issued successfully, please return the book within 10 days");
         else
-            return "Oops, you are allowed to take only kids books";
+            System.out.println("Oops, you are allowed to take only kids books");
     }
 }
 

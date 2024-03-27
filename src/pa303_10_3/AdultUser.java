@@ -33,10 +33,10 @@ public class AdultUser extends KidUser implements LibraryUser {
     }
 
     @Override
-    public String book(String Booktype) {
+    public void book(String Booktype) {
         if (Booktype.equals("fiction"))
-            return "Book issued successfully, please return the book within 7 days";
+            System.out.println("Book issued successfully, please return the book within 7 days");
         else
-            return "Oops, you are allowed to take only adult fiction books";
+            System.out.println("Oops, you are allowed to take only adults books");
     }
 }
